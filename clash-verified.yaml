@@ -985,6 +985,62 @@ proxies:
   udp: true
   uuid: 82a7f52c-f047-4f8c-b913-3ea1f29bdb38
   ws-opts: {}
+- name: vless-185.229.191.42:8443
+  network: ws
+  port: 8443
+  server: 185.229.191.42
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  ws-opts: {}
+- name: vless-185.229.191.96:8443
+  network: ws
+  port: 8443
+  server: 185.229.191.96
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  ws-opts: {}
+- name: vless-83.147.252.52:443
+  network: ws
+  port: 443
+  server: 83.147.252.52
+  servername: ''
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a8681e2-d3e7-4bf8-b7a7-5e24b1063ceb
+  ws-opts: {}
+- name: vless-153.121.76.150:443
+  network: ws
+  port: 443
+  server: 153.121.76.150
+  servername: s5.868001.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  ws-opts:
+    headers:
+      Host: s5.868001.xyz
+    path: /proxyip=ProxyIP.CMLiussss.net#[OpenRay] 🇯🇵 JP-3126
+- name: vless-154.17.8.84:443
+  network: ws
+  port: 443
+  server: 154.17.8.84
+  servername: s5.868001.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  ws-opts:
+    headers:
+      Host: s5.868001.xyz
+    path: /proxyip=ProxyIP.CMLiussss.net#[OpenRay] 🇺🇸 US-18303
 proxy-groups:
 - name: PROXY
   proxies:
@@ -1094,6 +1150,11 @@ proxy-groups:
   - vless-211.49.57.178:443
   - vless-193.200.16.127:2052
   - vless-it-8.flowersred.ru:443
+  - vless-185.229.191.42:8443
+  - vless-185.229.191.96:8443
+  - vless-83.147.252.52:443
+  - vless-153.121.76.150:443
+  - vless-154.17.8.84:443
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1140,6 +1201,8 @@ proxy-groups:
   - vless-185.229.191.22:8443
   - vless-185.229.191.180:8443
   - vless-185.229.191.185:8443
+  - vless-185.229.191.42:8443
+  - vless-185.229.191.96:8443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
@@ -1171,6 +1234,8 @@ proxy-groups:
   - vless-160.16.57.18:443
   - vless-211.49.57.175:443
   - vless-211.49.57.178:443
+  - vless-153.121.76.150:443
+  - vless-154.17.8.84:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
@@ -1203,17 +1268,18 @@ proxy-groups:
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
-  name: space.byu.id.yxls.eu.cc
-  proxies:
-  - trojan-space.byu.id.yxls.eu.cc:443
-  - trojan-space.byu.id.yxls.eu.cc:443
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-- interval: 300
   name: ''
   proxies:
   - vless-193.200.16.127:2052
   - vless-it-8.flowersred.ru:443
+  - vless-83.147.252.52:443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: space.byu.id.yxls.eu.cc
+  proxies:
+  - trojan-space.byu.id.yxls.eu.cc:443
+  - trojan-space.byu.id.yxls.eu.cc:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
