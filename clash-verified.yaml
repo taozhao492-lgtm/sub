@@ -1050,6 +1050,120 @@ proxies:
   type: vless
   udp: true
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: vless-91.107.149.166:8002
+  network: ws
+  port: 8002
+  server: 91.107.149.166
+  servername: ''
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1572e9c1-78a9-4f14-a8fc-1790dce03787
+- name: trojan-cn.speedabc.xyz:32002
+  password: cfbabf31-2cf6-40ca-9688-abbb682370aa
+  port: 32002
+  server: cn.speedabc.xyz
+  sni: jp-bgp.speedaccelerate.com#🇺🇸US-13.248.169.48-1680
+  type: trojan
+  udp: true
+- name: trojan-172.67.204.84:443
+  password: qj1Dz1CJmFQRhWr1SP80aA
+  port: 443
+  server: 172.67.204.84
+  sni: cdn-21.gsmxreality.com
+  type: trojan
+  udp: true
+- name: trojan-103.168.56.77:443
+  password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+  port: 443
+  server: 103.168.56.77
+  sni: ''
+  type: trojan
+  udp: true
+- name: trojan-103.172.116.196:3389
+  password: 0c6a3341e8d5ab17
+  port: 3389
+  server: 103.172.116.196
+  sni: ''
+  type: trojan
+  udp: true
+- name: trojan-3.85.62.200:54527
+  password: 2a9ba60d-10ce-4f79-97e7-817334456195
+  port: 54527
+  server: 3.85.62.200
+  sni: tr7.tgcunzhang.xyz#🇺🇸US-3.85.62.200-2008
+  type: trojan
+  udp: true
+- name: trojan-212.90.123.133:28443
+  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
+  port: 28443
+  server: 212.90.123.133
+  sni: ''
+  type: trojan
+  udp: true
+- name: trojan-168.138.189.17:28443
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 28443
+  server: 168.138.189.17
+  sni: ''
+  type: trojan
+  udp: true
+- name: trojan-london11.yukiss.eu.org:18818
+  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+  port: 18818
+  server: london11.yukiss.eu.org
+  sni: ''
+  type: trojan
+  udp: true
+- name: trojan-trs09.bolab.net:443
+  password: 7a566d21dfcd0f12490275fd3dd3cfc4
+  port: 443
+  server: trs09.bolab.net
+  sni: ''
+  type: trojan
+  udp: true
+- name: trojan-45.88.148.237:28443
+  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
+  port: 28443
+  server: 45.88.148.237
+  sni: sbank.ir#🇷🇺RU-45.88.148.237-2167
+  type: trojan
+  udp: true
+- name: trojan-60.249.3.125:3389
+  password: 3febb05ea76a940f
+  port: 3389
+  server: 60.249.3.125
+  sni: ''
+  type: trojan
+  udp: true
+- name: trojan-ch12.yukiss.eu.org:18818
+  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+  port: 18818
+  server: ch12.yukiss.eu.org
+  sni: ''
+  type: trojan
+  udp: true
+- name: trojan-supsig.xiaohouzi.club:10102
+  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
+  port: 10102
+  server: supsig.xiaohouzi.club
+  sni: ''
+  type: trojan
+  udp: true
+- name: trojan-49.212.221.47:2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: 49.212.221.47
+  sni: ''
+  type: trojan
+  udp: true
+- name: trojan-138.124.183.216:443
+  password: xxoo
+  port: 443
+  server: 138.124.183.216
+  sni: ''
+  type: trojan
+  udp: true
 proxy-groups:
 - name: PROXY
   proxies:
@@ -1072,6 +1186,10 @@ proxy-groups:
   - 9bd1394d0d09b462.monopolitass.ir
   - swn1.rainzone.ir
   - cdn9-33.vk-cdnvideo.com
+  - jp-bgp.speedaccelerate.com#🇺🇸US-13.248.169.48-1680
+  - cdn-21.gsmxreality.com
+  - tr7.tgcunzhang.xyz#🇺🇸US-3.85.62.200-2008
+  - sbank.ir#🇷🇺RU-45.88.148.237-2167
   type: select
 - interval: 300
   name: AUTO
@@ -1172,6 +1290,22 @@ proxy-groups:
   - vless-cdn.netraidly.ru:40443
   - vless-46.229.243.98:8443
   - vless-46.229.243.110:8443
+  - vless-91.107.149.166:8002
+  - trojan-cn.speedabc.xyz:32002
+  - trojan-172.67.204.84:443
+  - trojan-103.168.56.77:443
+  - trojan-103.172.116.196:3389
+  - trojan-3.85.62.200:54527
+  - trojan-212.90.123.133:28443
+  - trojan-168.138.189.17:28443
+  - trojan-london11.yukiss.eu.org:18818
+  - trojan-trs09.bolab.net:443
+  - trojan-45.88.148.237:28443
+  - trojan-60.249.3.125:3389
+  - trojan-ch12.yukiss.eu.org:18818
+  - trojan-supsig.xiaohouzi.club:10102
+  - trojan-49.212.221.47:2053
+  - trojan-138.124.183.216:443
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1220,6 +1354,27 @@ proxy-groups:
   - vless-185.229.191.185:8443
   - vless-185.229.191.42:8443
   - vless-185.229.191.96:8443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: ''
+  proxies:
+  - vless-193.200.16.127:2052
+  - vless-it-8.flowersred.ru:443
+  - vless-83.147.252.52:443
+  - vless-cdn.netraidly.ru:40443
+  - vless-91.107.149.166:8002
+  - trojan-103.168.56.77:443
+  - trojan-103.172.116.196:3389
+  - trojan-212.90.123.133:28443
+  - trojan-168.138.189.17:28443
+  - trojan-london11.yukiss.eu.org:18818
+  - trojan-trs09.bolab.net:443
+  - trojan-60.249.3.125:3389
+  - trojan-ch12.yukiss.eu.org:18818
+  - trojan-supsig.xiaohouzi.club:10102
+  - trojan-49.212.221.47:2053
+  - trojan-138.124.183.216:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
@@ -1282,15 +1437,6 @@ proxy-groups:
   - trojan-168.138.165.174:443
   - trojan-91.213.189.186:443
   - trojan-103.53.80.211:443
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-- interval: 300
-  name: ''
-  proxies:
-  - vless-193.200.16.127:2052
-  - vless-it-8.flowersred.ru:443
-  - vless-83.147.252.52:443
-  - vless-cdn.netraidly.ru:40443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
@@ -1359,6 +1505,30 @@ proxy-groups:
   name: swn1.rainzone.ir
   proxies:
   - vless-api.atirose.com:2087
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: jp-bgp.speedaccelerate.com#🇺🇸US-13.248.169.48-1680
+  proxies:
+  - trojan-cn.speedabc.xyz:32002
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: cdn-21.gsmxreality.com
+  proxies:
+  - trojan-172.67.204.84:443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: tr7.tgcunzhang.xyz#🇺🇸US-3.85.62.200-2008
+  proxies:
+  - trojan-3.85.62.200:54527
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: sbank.ir#🇷🇺RU-45.88.148.237-2167
+  proxies:
+  - trojan-45.88.148.237:28443
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
