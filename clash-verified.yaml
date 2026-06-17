@@ -1023,6 +1023,33 @@ proxies:
     headers:
       Host: swn1.rainzone.ir
     path: /
+- name: vless-cdn.netraidly.ru:40443
+  network: ws
+  port: 40443
+  server: cdn.netraidly.ru
+  servername: ''
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bf5a71c-d726-4585-b095-7396675706d5
+- name: vless-46.229.243.98:8443
+  network: ws
+  port: 8443
+  server: 46.229.243.98
+  servername: cdn9-33.vk-cdnvideo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: vless-46.229.243.110:8443
+  network: ws
+  port: 8443
+  server: 46.229.243.110
+  servername: cdn9-33.vk-cdnvideo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 proxy-groups:
 - name: PROXY
   proxies:
@@ -1044,6 +1071,7 @@ proxy-groups:
   - ''
   - 9bd1394d0d09b462.monopolitass.ir
   - swn1.rainzone.ir
+  - cdn9-33.vk-cdnvideo.com
   type: select
 - interval: 300
   name: AUTO
@@ -1141,6 +1169,9 @@ proxy-groups:
   - vless-154.17.8.84:443
   - vless-188.114.97.6:2087
   - vless-api.atirose.com:2087
+  - vless-cdn.netraidly.ru:40443
+  - vless-46.229.243.98:8443
+  - vless-46.229.243.110:8443
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1259,6 +1290,7 @@ proxy-groups:
   - vless-193.200.16.127:2052
   - vless-it-8.flowersred.ru:443
   - vless-83.147.252.52:443
+  - vless-cdn.netraidly.ru:40443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
@@ -1266,6 +1298,13 @@ proxy-groups:
   proxies:
   - trojan-space.byu.id.yxls.eu.cc:443
   - trojan-space.byu.id.yxls.eu.cc:443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: cdn9-33.vk-cdnvideo.com
+  proxies:
+  - vless-46.229.243.98:8443
+  - vless-46.229.243.110:8443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
