@@ -11,7 +11,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-95.173.199.101:8443
   network: ws
   port: 8443
@@ -21,7 +20,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-169.150.215.80:8443
   network: ws
   port: 8443
@@ -31,7 +29,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-95.173.199.113:8443
   network: ws
   port: 8443
@@ -41,7 +38,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.49:8443
   network: ws
   port: 8443
@@ -51,7 +47,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-167.179.82.79:443
   network: ws
   port: 443
@@ -74,7 +69,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-45.192.242.10:443
   network: ws
   port: 443
@@ -110,7 +104,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-95.173.199.117:8443
   network: ws
   port: 8443
@@ -120,7 +113,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-211.49.57.179:443
   network: ws
   port: 443
@@ -155,7 +147,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-104.253.175.202:443
   network: ws
   port: 443
@@ -178,7 +169,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: trojan-154.17.6.184:443
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -200,7 +190,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-169.150.215.74:8443
   network: ws
   port: 8443
@@ -210,7 +199,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: trojan-space.byu.id.yxls.eu.cc:443
   network: ws
   password: 6c862415-30d2-4813-8e49-42e99a0bd415
@@ -269,7 +257,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.169:8443
   network: ws
   port: 8443
@@ -279,7 +266,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-95.173.199.120:8443
   network: ws
   port: 8443
@@ -289,7 +275,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.72:8443
   network: ws
   port: 8443
@@ -299,7 +284,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-87.249.139.248:8443
   network: ws
   port: 8443
@@ -309,7 +293,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-211.49.57.161:443
   network: ws
   port: 443
@@ -345,7 +328,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-172.64.145.202:443
   network: ws
   port: 443
@@ -393,7 +375,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-79.127.227.215:8443
   network: ws
   port: 8443
@@ -403,7 +384,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-87.249.139.236:8443
   network: ws
   port: 8443
@@ -413,7 +393,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-79.127.227.57:8443
   network: ws
   port: 8443
@@ -423,7 +402,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-nexusmods.com:443
   network: ws
   port: 443
@@ -472,7 +450,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-95.173.199.118:8443
   network: ws
   port: 8443
@@ -482,7 +459,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-95.173.199.84:8443
   network: ws
   port: 8443
@@ -492,7 +468,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: trojan-167.254.240.12:443
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -563,7 +538,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.82:8443
   network: ws
   port: 8443
@@ -573,7 +547,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: trojan-103.53.80.211:443
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -621,7 +594,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-95.173.199.85:8443
   network: ws
   port: 8443
@@ -631,7 +603,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-87.249.139.232:8443
   network: ws
   port: 8443
@@ -641,7 +612,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-www.gov.ua:2096
   network: ws
   port: 2096
@@ -820,7 +790,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.145:8443
   network: ws
   port: 8443
@@ -830,7 +799,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-104.16.247.45:2083
   network: ws
   port: 2083
@@ -853,7 +821,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.14:8443
   network: ws
   port: 8443
@@ -863,7 +830,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.13:8443
   network: ws
   port: 8443
@@ -873,7 +839,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.110:8443
   network: ws
   port: 8443
@@ -883,7 +848,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.186:8443
   network: ws
   port: 8443
@@ -893,7 +857,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.22:8443
   network: ws
   port: 8443
@@ -903,7 +866,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.180:8443
   network: ws
   port: 8443
@@ -913,7 +875,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.185:8443
   network: ws
   port: 8443
@@ -923,7 +884,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: trojan-158.247.255.3:8443
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -984,7 +944,6 @@ proxies:
   type: vless
   udp: true
   uuid: 82a7f52c-f047-4f8c-b913-3ea1f29bdb38
-  ws-opts: {}
 - name: vless-185.229.191.42:8443
   network: ws
   port: 8443
@@ -994,7 +953,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-185.229.191.96:8443
   network: ws
   port: 8443
@@ -1004,7 +962,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  ws-opts: {}
 - name: vless-83.147.252.52:443
   network: ws
   port: 443
@@ -1014,7 +971,6 @@ proxies:
   type: vless
   udp: true
   uuid: 0a8681e2-d3e7-4bf8-b7a7-5e24b1063ceb
-  ws-opts: {}
 - name: vless-153.121.76.150:443
   network: ws
   port: 443
@@ -1041,6 +997,32 @@ proxies:
     headers:
       Host: s5.868001.xyz
     path: /proxyip=ProxyIP.CMLiussss.net#[OpenRay] 🇺🇸 US-18303
+- name: vless-188.114.97.6:2087
+  network: ws
+  port: 2087
+  server: 188.114.97.6
+  servername: 9bd1394d0d09b462.monopolitass.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32f1b878-3b34-4070-863e-055a3cc714bc
+  ws-opts:
+    headers:
+      Host: 9bd1394d0d09b462.monopolitass.ir
+    path: /
+- name: vless-api.atirose.com:2087
+  network: ws
+  port: 2087
+  server: api.atirose.com
+  servername: swn1.rainzone.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32f1b878-3b34-4070-863e-055a3cc714bc
+  ws-opts:
+    headers:
+      Host: swn1.rainzone.ir
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
@@ -1060,6 +1042,8 @@ proxy-groups:
   - trYTOcONecT.PageS.dEV
   - game.proxystore11.qzz.io
   - ''
+  - 9bd1394d0d09b462.monopolitass.ir
+  - swn1.rainzone.ir
   type: select
 - interval: 300
   name: AUTO
@@ -1155,6 +1139,8 @@ proxy-groups:
   - vless-83.147.252.52:443
   - vless-153.121.76.150:443
   - vless-154.17.8.84:443
+  - vless-188.114.97.6:2087
+  - vless-api.atirose.com:2087
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1322,6 +1308,18 @@ proxy-groups:
   name: game.proxystore11.qzz.io
   proxies:
   - vless-104.16.247.45:2083
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: 9bd1394d0d09b462.monopolitass.ir
+  proxies:
+  - vless-188.114.97.6:2087
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: swn1.rainzone.ir
+  proxies:
+  - vless-api.atirose.com:2087
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
