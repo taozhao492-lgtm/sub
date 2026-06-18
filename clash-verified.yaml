@@ -2,28 +2,6 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- name: vless-211.49.57.179:443
-  network: ws
-  port: 443
-  server: 211.49.57.179
-  servername: s5.868001.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-    path: /proxyip=ProxyIP.CMLiussss.net
-- name: vless-79.127.227.57:8443
-  network: ws
-  port: 8443
-  server: 79.127.227.57
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - name: vless-95.173.199.118:8443
   network: ws
   port: 8443
@@ -33,72 +11,6 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-95.173.199.84:8443
-  network: ws
-  port: 8443
-  server: 95.173.199.84
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-japan.com:2053
-  network: ws
-  port: 2053
-  server: japan.com
-  servername: c7dabe95.proxy-978.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  ws-opts:
-    headers:
-      Host: c7dabe95.proxy-978.pages.dev
-    path: /
-- name: vless-time.is:443
-  network: ws
-  port: 443
-  server: time.is
-  servername: c7dabe95.proxy-978.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  ws-opts:
-    headers:
-      Host: c7dabe95.proxy-978.pages.dev
-    path: /
-- name: vless-185.229.191.46:8443
-  network: ws
-  port: 8443
-  server: 185.229.191.46
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-185.229.191.22:8443
-  network: ws
-  port: 8443
-  server: 185.229.191.22
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-211.49.57.175:443
-  network: ws
-  port: 443
-  server: 211.49.57.175
-  servername: s5.868001.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-    path: /proxyip=ProxyIP.CMLiussss.net#[OpenRay] 🇰🇷 KR-1932
 - name: vless-185.229.191.14:8443
   network: ws
   port: 8443
@@ -117,37 +29,147 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-185.229.191.157:8443
+  network: ws
+  port: 8443
+  server: 185.229.191.157
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-185.229.191.93:8443
+  network: ws
+  port: 8443
+  server: 185.229.191.93
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-185.229.191.12:8443
+  network: ws
+  port: 8443
+  server: 185.229.191.12
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-icook.hk:443
+  network: ws
+  port: 443
+  server: icook.hk
+  servername: c7dabe95.proxy-978.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  ws-opts:
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+    path: /
+- name: vless-singapore.com:8443
+  network: ws
+  port: 8443
+  server: singapore.com
+  servername: c7dabe95.proxy-978.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  ws-opts:
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+    path: /
+- name: vless-www.gco.gov.qa:8443
+  network: ws
+  port: 8443
+  server: www.gco.gov.qa
+  servername: c7dabe95.proxy-978.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  ws-opts:
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+    path: /
+- name: trojan-185.248.86.185:10011
+  password: 2af31107-e577-4995-8247-e8a57855e90b
+  port: 10011
+  server: 185.248.86.185
+  sni: xn--vck0bp0g2a4h.xn--ick8a8i.xn--tckwe# By EbraSha
+  type: trojan
+  udp: true
+- name: vless-82.152.91.210:443
+  network: ws
+  port: 443
+  server: 82.152.91.210
+  servername: s5.868001.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  ws-opts:
+    headers:
+      Host: s5.868001.xyz
+    path: /proxyip=ProxyIP.CMLiussss.net#[OpenRay] 🇹🇼 TW-617
 proxy-groups:
 - name: PROXY
   proxies:
   - AUTO
-  - vless-211.49.57.179:443
-  - vless-79.127.227.57:8443
-  - vless-95.173.199.118:8443
-  - vless-95.173.199.84:8443
-  - vless-japan.com:2053
-  - vless-time.is:443
-  - vless-185.229.191.46:8443
-  - vless-185.229.191.22:8443
-  - vless-211.49.57.175:443
-  - vless-185.229.191.14:8443
-  - vless-45.159.12.123:8443
+  - ams1.fromblancwithlove.com
+  - c7dabe95.proxy-978.pages.dev
+  - xn--vck0bp0g2a4h.xn--ick8a8i.xn--tckwe# By EbraSha
+  - s5.868001.xyz
   type: select
 - interval: 300
   name: AUTO
   proxies:
-  - vless-211.49.57.179:443
-  - vless-79.127.227.57:8443
   - vless-95.173.199.118:8443
-  - vless-95.173.199.84:8443
-  - vless-japan.com:2053
-  - vless-time.is:443
-  - vless-185.229.191.46:8443
-  - vless-185.229.191.22:8443
-  - vless-211.49.57.175:443
   - vless-185.229.191.14:8443
   - vless-45.159.12.123:8443
+  - vless-185.229.191.157:8443
+  - vless-185.229.191.93:8443
+  - vless-185.229.191.12:8443
+  - vless-icook.hk:443
+  - vless-singapore.com:8443
+  - vless-www.gco.gov.qa:8443
+  - trojan-185.248.86.185:10011
+  - vless-82.152.91.210:443
   tolerance: 50
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: ams1.fromblancwithlove.com
+  proxies:
+  - vless-95.173.199.118:8443
+  - vless-185.229.191.14:8443
+  - vless-45.159.12.123:8443
+  - vless-185.229.191.157:8443
+  - vless-185.229.191.93:8443
+  - vless-185.229.191.12:8443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: c7dabe95.proxy-978.pages.dev
+  proxies:
+  - vless-icook.hk:443
+  - vless-singapore.com:8443
+  - vless-www.gco.gov.qa:8443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: xn--vck0bp0g2a4h.xn--ick8a8i.xn--tckwe# By EbraSha
+  proxies:
+  - trojan-185.248.86.185:10011
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: s5.868001.xyz
+  proxies:
+  - vless-82.152.91.210:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
