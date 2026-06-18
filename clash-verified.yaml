@@ -1029,95 +1029,69 @@ proxies:
   sni: t.me%2Fripaojiedian#Japan t.me/rjsxrd
   type: trojan
   udp: true
-- name: vless-russia.com:2087
-  network: ws
-  port: 2087
-  server: russia.com
-  servername: c7dabe95.proxy-978.pages.dev
-  tls: true
-  type: vless
+- name: trojan-13.39.53.66:22222
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.53.66
+  sni: trojan.burgerip.co.uk#(S103)🇨🇵t.me/PrivateVPNs t.me/rjsxrd
+  type: trojan
   udp: true
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  ws-opts:
-    headers:
-      Host: c7dabe95.proxy-978.pages.dev
-    path: /
-- name: vless-www.gco.gov.qa:8443
-  network: ws
-  port: 8443
-  server: www.gco.gov.qa
-  servername: c7dabe95.proxy-978.pages.dev
-  tls: true
-  type: vless
+- name: trojan-13.39.54.25:22223
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.39.54.25
+  sni: ''
+  type: trojan
   udp: true
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  ws-opts:
-    headers:
-      Host: c7dabe95.proxy-978.pages.dev
-    path: /
-- name: vless-95.173.199.86:8443
-  network: ws
-  port: 8443
-  server: 95.173.199.86
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
+- name: trojan-13.39.61.161:22222
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.61.161
+  sni: trojan.burgerip.co.uk#(S104)🇨🇵t.me/PrivateVPNs t.me/rjsxrd
+  type: trojan
   udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-185.229.191.157:8443
-  network: ws
-  port: 8443
-  server: 185.229.191.157
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
+- name: trojan-13.39.69.23:22222
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.69.23
+  sni: trj.rollingnext.co.uk
+  type: trojan
   udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-185.229.191.96:8443
-  network: ws
-  port: 8443
-  server: 185.229.191.96
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
+- name: trojan-13.39.72.77:22223
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.39.72.77
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-185.229.191.10:8443
-  network: ws
-  port: 8443
-  server: 185.229.191.10
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
+- name: trojan-13.39.73.242:22222
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.73.242
+  sni: trojan.burgerip.co.uk#🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 0 t.me/rjsxrd
+  type: trojan
   udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-185.229.191.49:8443
-  network: ws
-  port: 8443
-  server: 185.229.191.49
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
+- name: trojan-13.39.94.180:22222
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.94.180
+  sni: trojan.burgerip.co.uk# t.me/rjsxrd
+  type: trojan
   udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-185.229.191.169:8443
-  network: ws
-  port: 8443
-  server: 185.229.191.169
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
+- name: trojan-13.40.255.54:22222
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.40.255.54
+  sni: trj.rollingnext.co.uk#🇬🇧GB-13.40.255.54-2138 t.me/rjsxrd
+  type: trojan
   udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-185.229.191.93:8443
-  network: ws
-  port: 8443
-  server: 185.229.191.93
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
+- name: trojan-13.40.56.88:14837
+  password: HpRh25bvQreL
+  port: 14837
+  server: 13.40.56.88
+  sni: www.myethblog.com#美国 Amazon数据中心 t.me/rjsxrd
+  type: trojan
   udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 proxy-groups:
 - name: PROXY
   proxies:
@@ -1174,6 +1148,14 @@ proxy-groups:
   - Koma-YT.PAGeS.Dev# t.me/rjsxrd
   - www.nintendogames.net
   - t.me%2Fripaojiedian#Japan t.me/rjsxrd
+  - trojan.burgerip.co.uk#(S103)🇨🇵t.me/PrivateVPNs t.me/rjsxrd
+  - trojan.burgerip.co.uk#(S104)🇨🇵t.me/PrivateVPNs t.me/rjsxrd
+  - trj.rollingnext.co.uk
+  - trojan.burgerip.co.uk
+  - trojan.burgerip.co.uk#🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 0 t.me/rjsxrd
+  - trojan.burgerip.co.uk# t.me/rjsxrd
+  - trj.rollingnext.co.uk#🇬🇧GB-13.40.255.54-2138 t.me/rjsxrd
+  - www.myethblog.com#美国 Amazon数据中心 t.me/rjsxrd
   type: select
 - interval: 300
   name: AUTO
@@ -1290,15 +1272,15 @@ proxy-groups:
   - trojan-129.212.233.197:2053
   - trojan-13.112.81.124:3169
   - trojan-13.115.187.38:5156
-  - vless-russia.com:2087
-  - vless-www.gco.gov.qa:8443
-  - vless-95.173.199.86:8443
-  - vless-185.229.191.157:8443
-  - vless-185.229.191.96:8443
-  - vless-185.229.191.10:8443
-  - vless-185.229.191.49:8443
-  - vless-185.229.191.169:8443
-  - vless-185.229.191.93:8443
+  - trojan-13.39.53.66:22222
+  - trojan-13.39.54.25:22223
+  - trojan-13.39.61.161:22222
+  - trojan-13.39.69.23:22222
+  - trojan-13.39.72.77:22223
+  - trojan-13.39.73.242:22222
+  - trojan-13.39.94.180:22222
+  - trojan-13.40.255.54:22222
+  - trojan-13.40.56.88:14837
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1343,6 +1325,7 @@ proxy-groups:
   - trojan-104.25.31.240:443
   - trojan-120.82.67.127:28132
   - trojan-129.146.242.130:443
+  - trojan-13.39.54.25:22223
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
@@ -1362,23 +1345,6 @@ proxy-groups:
   - vless-185.229.191.14:8443
   - vless-45.159.12.123:8443
   - vless-185.229.191.109:8443
-  - vless-95.173.199.86:8443
-  - vless-185.229.191.157:8443
-  - vless-185.229.191.96:8443
-  - vless-185.229.191.10:8443
-  - vless-185.229.191.49:8443
-  - vless-185.229.191.169:8443
-  - vless-185.229.191.93:8443
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-- interval: 300
-  name: c7dabe95.proxy-978.pages.dev
-  proxies:
-  - vless-japan.com:2053
-  - vless-www.wto.org:8443
-  - vless-time.is:443
-  - vless-russia.com:2087
-  - vless-www.gco.gov.qa:8443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
@@ -1387,6 +1353,14 @@ proxy-groups:
   - vless-211.49.57.179:443
   - vless-211.49.57.161:443
   - vless-211.49.57.175:443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: c7dabe95.proxy-978.pages.dev
+  proxies:
+  - vless-japan.com:2053
+  - vless-www.wto.org:8443
+  - vless-time.is:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
@@ -1681,6 +1655,54 @@ proxy-groups:
   name: t.me%2Fripaojiedian#Japan t.me/rjsxrd
   proxies:
   - trojan-13.115.187.38:5156
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: trojan.burgerip.co.uk#(S103)🇨🇵t.me/PrivateVPNs t.me/rjsxrd
+  proxies:
+  - trojan-13.39.53.66:22222
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: trojan.burgerip.co.uk#(S104)🇨🇵t.me/PrivateVPNs t.me/rjsxrd
+  proxies:
+  - trojan-13.39.61.161:22222
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: trj.rollingnext.co.uk
+  proxies:
+  - trojan-13.39.69.23:22222
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: trojan.burgerip.co.uk
+  proxies:
+  - trojan-13.39.72.77:22223
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: trojan.burgerip.co.uk#🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 0 t.me/rjsxrd
+  proxies:
+  - trojan-13.39.73.242:22222
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: trojan.burgerip.co.uk# t.me/rjsxrd
+  proxies:
+  - trojan-13.39.94.180:22222
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: trj.rollingnext.co.uk#🇬🇧GB-13.40.255.54-2138 t.me/rjsxrd
+  proxies:
+  - trojan-13.40.255.54:22222
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: www.myethblog.com#美国 Amazon数据中心 t.me/rjsxrd
+  proxies:
+  - trojan-13.40.56.88:14837
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
