@@ -2,6 +2,33 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
+- name: vless-95.173.199.117:8443
+  network: ws
+  port: 8443
+  server: 95.173.199.117
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-95.173.199.86:8443
+  network: ws
+  port: 8443
+  server: 95.173.199.86
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-87.249.139.236:8443
+  network: ws
+  port: 8443
+  server: 87.249.139.236
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - name: vless-79.127.227.57:8443
   network: ws
   port: 8443
@@ -11,19 +38,68 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-185.229.191.12:8443
+- name: vless-185.229.191.14:8443
   network: ws
   port: 8443
-  server: 185.229.191.12
+  server: 185.229.191.14
   servername: ams1.fromblancwithlove.com
   tls: true
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: vless-japan.com:2053
+- name: vless-185.229.191.111:8443
   network: ws
-  port: 2053
-  server: japan.com
+  port: 8443
+  server: 185.229.191.111
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-185.229.191.169:8443
+  network: ws
+  port: 8443
+  server: 185.229.191.169
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-211.49.57.161:443
+  network: ws
+  port: 443
+  server: 211.49.57.161
+  servername: s5.868001.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  ws-opts:
+    headers:
+      Host: s5.868001.xyz
+    path: /proxyip=ProxyIP.CMLiussss.net
+- name: vless-87.249.139.232:8443
+  network: ws
+  port: 8443
+  server: 87.249.139.232
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-95.173.199.84:8443
+  network: ws
+  port: 8443
+  server: 95.173.199.84
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-singapore.com:8443
+  network: ws
+  port: 8443
+  server: singapore.com
   servername: c7dabe95.proxy-978.pages.dev
   tls: true
   type: vless
@@ -33,33 +109,248 @@ proxies:
     headers:
       Host: c7dabe95.proxy-978.pages.dev
     path: /
+- name: vless-www.wto.org:8443
+  network: ws
+  port: 8443
+  server: www.wto.org
+  servername: c7dabe95.proxy-978.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  ws-opts:
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+    path: /
+- name: vless-time.is:443
+  network: ws
+  port: 443
+  server: time.is
+  servername: c7dabe95.proxy-978.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  ws-opts:
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+    path: /
+- name: vless-211.49.57.175:443
+  network: ws
+  port: 443
+  server: 211.49.57.175
+  servername: s5.868001.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  ws-opts:
+    headers:
+      Host: s5.868001.xyz
+    path: /proxyip=ProxyIP.CMLiussss.net#[OpenRay] 🇰🇷 KR-1932
+- name: vless-185.229.191.42:8443
+  network: ws
+  port: 8443
+  server: 185.229.191.42
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: vless-153.121.76.150:443
+  network: ws
+  port: 443
+  server: 153.121.76.150
+  servername: s5.868001.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  ws-opts:
+    headers:
+      Host: s5.868001.xyz
+    path: /proxyip=ProxyIP.CMLiussss.net#[OpenRay] 🇯🇵 JP-3126
+- name: vless-77.93.90.231:443
+  network: ws
+  port: 443
+  server: 77.93.90.231
+  servername: s5.868001.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  ws-opts:
+    headers:
+      Host: s5.868001.xyz
+    path: /proxyip=ProxyIP.CMLiussss.net#[OpenRay] 🇸🇬 SG-1419
+- name: vless-172.64.149.99:8443
+  network: ws
+  port: 8443
+  server: 172.64.149.99
+  servername: 8p3cfl0ripm.zjde5.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ddeb056-17d4-421e-a318-39428733d4a2
+  ws-opts:
+    headers:
+      Host: 8p3cfl0ripm.zjde5.de5.net
+    path: /?ed=2560#>>@DailyV2RY::US
+- name: vless-140.248.187.74:80
+  network: ws
+  port: 80
+  server: 140.248.187.74
+  servername: ''
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f541855-14d5-4c08-9f01-a2799ce4725a
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048#[OpenRay]
+      🇺🇸 US-17718
+- name: vless-89.126.229.40:443
+  network: ws
+  port: 443
+  server: 89.126.229.40
+  servername: ''
+  tls: true
+  type: vless
+  udp: true
+  uuid: 301d514e-4aa0-47b0-ba44-a0cb891cd52f
+- name: vless-46.62.128.207:443
+  network: ws
+  port: 443
+  server: 46.62.128.207
+  servername: ''
+  tls: true
+  type: vless
+  udp: true
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+- name: vless-43.174.246.60:443
+  network: ws
+  port: 443
+  server: 43.174.246.60
+  servername: sni.mmadcoffee.info#[OpenRay] 🇸🇬 SG-1369
+  tls: true
+  type: vless
+  udp: true
+  uuid: 317c8bd5-2e89-4bfb-9513-a37b8e29427f
+  ws-opts:
+    headers:
+      Host: mail.mmadcoffee.info
+    path: /19426/mmad
+- name: vless-cms.umtheme.com:443
+  network: ws
+  port: 443
+  server: cms.umtheme.com
+  servername: sni.mmadcoffee.info#[OpenRay] Dynamic-1366
+  tls: true
+  type: vless
+  udp: true
+  uuid: 317c8bd5-2e89-4bfb-9513-a37b8e29427f
+  ws-opts:
+    headers:
+      Host: mail.mmadcoffee.info
+    path: /19426/mmad
 proxy-groups:
 - name: PROXY
   proxies:
   - AUTO
   - ams1.fromblancwithlove.com
+  - s5.868001.xyz
   - c7dabe95.proxy-978.pages.dev
+  - 8p3cfl0ripm.zjde5.de5.net
+  - ''
+  - sni.mmadcoffee.info#[OpenRay] 🇸🇬 SG-1369
+  - sni.mmadcoffee.info#[OpenRay] Dynamic-1366
   type: select
 - interval: 300
   name: AUTO
   proxies:
+  - vless-95.173.199.117:8443
+  - vless-95.173.199.86:8443
+  - vless-87.249.139.236:8443
   - vless-79.127.227.57:8443
-  - vless-185.229.191.12:8443
-  - vless-japan.com:2053
+  - vless-185.229.191.14:8443
+  - vless-185.229.191.111:8443
+  - vless-185.229.191.169:8443
+  - vless-211.49.57.161:443
+  - vless-87.249.139.232:8443
+  - vless-95.173.199.84:8443
+  - vless-singapore.com:8443
+  - vless-www.wto.org:8443
+  - vless-time.is:443
+  - vless-211.49.57.175:443
+  - vless-185.229.191.42:8443
+  - vless-153.121.76.150:443
+  - vless-77.93.90.231:443
+  - vless-172.64.149.99:8443
+  - vless-140.248.187.74:80
+  - vless-89.126.229.40:443
+  - vless-46.62.128.207:443
+  - vless-43.174.246.60:443
+  - vless-cms.umtheme.com:443
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: ams1.fromblancwithlove.com
   proxies:
+  - vless-95.173.199.117:8443
+  - vless-95.173.199.86:8443
+  - vless-87.249.139.236:8443
   - vless-79.127.227.57:8443
-  - vless-185.229.191.12:8443
+  - vless-185.229.191.14:8443
+  - vless-185.229.191.111:8443
+  - vless-185.229.191.169:8443
+  - vless-87.249.139.232:8443
+  - vless-95.173.199.84:8443
+  - vless-185.229.191.42:8443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: s5.868001.xyz
+  proxies:
+  - vless-211.49.57.161:443
+  - vless-211.49.57.175:443
+  - vless-153.121.76.150:443
+  - vless-77.93.90.231:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: c7dabe95.proxy-978.pages.dev
   proxies:
-  - vless-japan.com:2053
+  - vless-singapore.com:8443
+  - vless-www.wto.org:8443
+  - vless-time.is:443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: ''
+  proxies:
+  - vless-140.248.187.74:80
+  - vless-89.126.229.40:443
+  - vless-46.62.128.207:443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: 8p3cfl0ripm.zjde5.de5.net
+  proxies:
+  - vless-172.64.149.99:8443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: sni.mmadcoffee.info#[OpenRay] 🇸🇬 SG-1369
+  proxies:
+  - vless-43.174.246.60:443
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: sni.mmadcoffee.info#[OpenRay] Dynamic-1366
+  proxies:
+  - vless-cms.umtheme.com:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
