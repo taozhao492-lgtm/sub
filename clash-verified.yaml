@@ -121,9 +121,17 @@ proxy-groups:
 - name: PROXY
   proxies:
   - AUTO
-  - s5.868001.xyz
-  - ams1.fromblancwithlove.com
-  - c7dabe95.proxy-978.pages.dev
+  - vless-211.49.57.179:443
+  - vless-79.127.227.57:8443
+  - vless-95.173.199.118:8443
+  - vless-95.173.199.84:8443
+  - vless-japan.com:2053
+  - vless-time.is:443
+  - vless-185.229.191.46:8443
+  - vless-185.229.191.22:8443
+  - vless-211.49.57.175:443
+  - vless-185.229.191.14:8443
+  - vless-45.159.12.123:8443
   type: select
 - interval: 300
   name: AUTO
@@ -140,32 +148,6 @@ proxy-groups:
   - vless-185.229.191.14:8443
   - vless-45.159.12.123:8443
   tolerance: 50
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-- interval: 300
-  name: ams1.fromblancwithlove.com
-  proxies:
-  - vless-79.127.227.57:8443
-  - vless-95.173.199.118:8443
-  - vless-95.173.199.84:8443
-  - vless-185.229.191.46:8443
-  - vless-185.229.191.22:8443
-  - vless-185.229.191.14:8443
-  - vless-45.159.12.123:8443
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-- interval: 300
-  name: s5.868001.xyz
-  proxies:
-  - vless-211.49.57.179:443
-  - vless-211.49.57.175:443
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-- interval: 300
-  name: c7dabe95.proxy-978.pages.dev
-  proxies:
-  - vless-japan.com:2053
-  - vless-time.is:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
